@@ -2498,6 +2498,25 @@ h6 {
 
 /* End Features Area css
 ============================================================================================ */
+
+.certificate_item {
+  padding: 45px 25px;
+  text-align: center;
+  background: #f9f9fd;
+  cursor: pointer;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.certificate_item img {
+  width: 250px;
+}
+.certificate_item:hover {
+  box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+  background: #fff; }
+
 /* Start Brand Area css
 ============================================================================================ */
 .single-brand-item {
